@@ -46,7 +46,6 @@ Each row in the data contains the following columns:
 7. **Histograms:** Visualize the frequency distribution of key variables.
 8. **Z-Score Analysis:** Flag data points significantly different from the mean.
 9. **Bubble Charts:** Explore complex relationships between variables.
-10. **Data Cleaning:** Handle anomalies and missing values.
 
 ## Setup
 1. **Create a Virtual Environment:**
