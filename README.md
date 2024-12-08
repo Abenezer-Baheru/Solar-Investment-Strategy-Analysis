@@ -59,7 +59,7 @@ Each row in the data contains the following columns:
 1. **Download the Data:** The data files are stored on Google Drive. Use the script to download them:
 import gdown
 
-# Download the CSV files
+## Download the CSV files
 
 
 2. **Download the Data:** Run the EDA Script: Use the main.py script to run the EDA analysis:
