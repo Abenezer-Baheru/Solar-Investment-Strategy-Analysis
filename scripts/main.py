@@ -34,6 +34,19 @@ data = pd.concat([benin_data, sierraleone_data, togo_data], keys=['Benin', 'Sier
 summary_stats = data.describe()
 # print(summary_stats)
 
+# Missing values
+missing_values = data.isnull().sum()
+print(missing_values)
+
+# Outliers detection
+import matplotlib.pyplot as plt
+
+for column in ['GHI', 'DNI', 'DHI', 'ModA', 'ModB', 'WS', 'WSgust']:
+    data[column].plot(kind='box')
+    plt.title(f'Boxplot of {column}')
+    plt.show()
+
+
 
 
 
