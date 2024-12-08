@@ -55,4 +55,22 @@ Each row in the data contains the following columns:
 2. **Install Required Libraries:**
     pip install pandas numpy matplotlib seaborn gdown streamlit
 
+## How to Run
+1. **Download the Data:** The data files are stored on Google Drive. Use the script to download them:
+import gdown
 
+# Download the CSV files
+
+
+2. **Download the Data:** Run the EDA Script: Use the main.py script to run the EDA analysis:
+python main.py
+3. **View the Results:** Open the eda.ipynb notebook to interactively explore the results of the EDA.
+
+## Results
+The analysis includes summary statistics, data quality checks, time series plots, correlation matrices, wind analysis, temperature analysis, histograms, Z-score analysis, and bubble charts. The cleaned dataset is saved as cleaned_solar_data.csv.
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit pull requests with improvements.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
